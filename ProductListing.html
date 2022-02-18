@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> E Book Sell </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .fa-search:before{content:"\f002"}
+             
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 30px;
+                text-align: center;
+            
+            }
+            .flex-item-right {
+                background-color: dodgerblue;
+                padding: 10px;
+                flex: 20%;
+            }
+            .flex-container {
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+            .flex-container > div {
+                background-color: #e6e6e6;
+                width: 227.67px;
+                margin: 10px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                height: 500px;
+                border-radius: 7px;
+                border:1px solid black;
+                padding: 0;
+                
+            }
+
+        </style>        
+    </head>
+    <body style="margin: 0;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >
+
+    <!-- Header -->
+        <header>
+
+            <div style="height: 92px; ">
+                
+                <img src="site-logo.svg" alt="bag" style="height: 70px; margin-top: 8px;margin-left: 145px;position: absolute;"></img>
+
+            
+                <div style="align-items: initial;float: right!important;margin: 25px 115px 0px 0px;font-family: Roboto;
+                font-weight: bold;font-size: 16px;">
+
+                <table border="0" cellspacing="9" style="background-color: #f14d54;">
+                    <tr>
+
+                        <td style="border-right:solid 1.5px black; padding-right: 10px;">
+                            <a href="#" style="text-decoration: none;color: white;">LOGIN</a>
+                        </td>
+
+                        <td style="border-right:solid 1.5px black;padding-right: 10px;">
+                            <a href="#" style="text-decoration: none;color: white;">REGISTER</a>
+                        </td>
+
+                        <td>
+                           
+                            <a href="#" style="text-decoration: none;color: white;">
+                                <img src="cart.svg" style="height: 17px; color: white;padding-right: 5px;">CART</img>
+                            </a>
+                           
+                        </td>
+                    </tr>
+                </table>
+                </div>               
+            </div>
+
+            <div class="search-container" style="height: 80px;background-color: #eeeeee;">
+
+                <form action="" style="text-align: center; padding-top: 17px;" >
+
+                  <input type="text" placeholder="What are you looking for..." name="search"
+                    style="height: 40px;width: 422px;color: rgb(33, 33, 33);text-align: center;font-style: italic;
+                    border-color: black;margin-right: 5px;" >
+
+                  <button type="submit" style="height: 40px;font-size: 16px;max-width: 129px;
+                    background-color: #80bf32;border-radius: 0px;
+                    color: white;border: none;padding: 10px;margin-right: 5px;"><i class="fa fa-search" style="padding-right: 5px;"></i>Search
+                  </button>
+
+                  <button type="submit" style="height: 40px;font-size: 16px;max-width: 129px;
+                    background-color: #f14d54;border-radius: 0px;
+                    color: white;border: none;padding: 10px;">Cancel
+                  </button>
+
+                </form>
+            </div>
+
+        </header>
+    <!-- Header Over -->
+
+        <h1 style="text-align: center;background-color: white;margin: 0;padding: 35px 0 25px 0;">Product Listing</h1>  
+       
+        <div style="height: 50px;padding:  10px 0px 25px 0px;">
+
+            <div>
+                <p style="float: left!important;font-size: 20px;color: #414141;margin: 15px 0px 15px 145px;font-family: Roboto;">
+                    Product Name - 143
+                </p>
+
+            </div>
+
+
+            <div style="float: right;">
+                <label for="Sort By ">Sort By </label>
+                <select name="sortby" id="" style="width: 200px;height: 40px;margin: 5px 115px 3px 5px;">
+                    <option value="A - Z">A - Z</option>
+                    <option value="Price: Low to High">Price: Low to High</option>
+                    <option value="Price: High to Low">Price: High to Low</option>
+                    <option value="Avg. Customer Review">Avg. Customer Review</option>
+                    <option value="Newest Arrivals">Newest Arrivals</option>
+                </select>
+
+
+            </div>
+        </div>
+
+    <!-- Item Container -->
+        <div style="margin: 0px 80px 40px 130px;">
+
+            <div class="flex-container">
+
+                <div style="overflow: hidden; width: 300px; height: 700px;">
+                    <img src="200.png" alt="200x200" style="width: 300px;height: 200px; "><br/>
+                    <h2 style="margin: 0px 0px 0px 10px;text-align: left;">Product Title</h2>
+                    <p style="margin: 0px 0px 5px 10px;text-align: left;font-size: 15px;color: #838383;">Lorem</p><br>
+                    <p style="margin: 0px 10px 0px 10px;text-align: justify; width: auto; height: auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <p style="text-align: left;margin: 5px 0px 0px 10px;color: #838383;">
+                        MRP <strike>₹1000</strike><br> <span style="color: #80bf32;font-weight: bold;">20.00% OFF</span>
+                    </p><br>
+                    <p style="margin: 0px 0px 0px 10px; text-align: left;font-weight: bold;"> ₹ 800 </p>
+                    <button type="submit" style="width: 300px;height: 40px;background-color: #f14d54;border:none;border-radius: 6px;
+                    color: white;font-weight: bold;margin-top: 7px;">ADD TO CART</button>
+                </div>
+
+                <div style="overflow: hidden; width: 300px; height: 700px;">
+                    <img src="200.png" alt="200x200" style="width: 300px;height: 200px; background-color: black;"><br/>
+                    <h2 style="margin: 0px 0px 0px 10px;text-align: left;">Product Title</h2>
+                    <p style="margin: 0px 0px 5px 10px;text-align: left;font-size: 15px;color: #838383;">Lorem</p><br>
+                    <p style="margin: 0px 10px 0px 10px;text-align: justify; width: auto; height: auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <p style="text-align: left;margin: 5px 0px 0px 10px;color: #838383;">
+                        MRP <strike>₹1000</strike><br> <span style="color: #80bf32;font-weight: bold;">20.00% OFF</span>
+                    </p><br>
+                    <p style="margin: 0px 0px 0px 10px; text-align: left;font-weight: bold;"> ₹ 800 </p>
+                    <button type="submit" style="width: 300px;height: 40px;background-color: #f14d54;border:none;border-radius: 6px;
+                    color: white;font-weight: bold;margin-top: 7px;">ADD TO CART</button>
+                </div>
+
+                <div style="overflow: hidden; width: 300px; height: 700px;">
+                    <img src="200.png" alt="200x200" style="width: 300px;height: 200px; background-color: black;"><br/>
+                    <h2 style="margin: 0px 0px 0px 10px;text-align: left;">Product Title</h2>
+                    <p style="margin: 0px 0px 5px 10px;text-align: left;font-size: 15px;color: #838383;">Lorem</p><br>
+                    <p style="margin: 0px 10px 0px 10px;text-align: justify; width: auto; height: auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <p style="text-align: left;margin: 5px 0px 0px 10px;color: #838383;">
+                        MRP <strike>₹1000</strike><br> <span style="color: #80bf32;font-weight: bold;">20.00% OFF</span>
+                    </p><br>
+                    <p style="margin: 0px 0px 0px 10px; text-align: left;font-weight: bold;"> ₹ 800 </p>
+                    <button type="submit" style="width: 300px;height: 40px;background-color: #f14d54;border:none;border-radius: 6px;
+                    color: white;font-weight: bold;margin-top: 7px;">ADD TO CART</button>
+                </div>
+
+                <div style="overflow: hidden; width: 300px; height: 700px;">
+                    <img src="200.png" alt="200x200" style="width: 300px;height: 200px; background-color: black;"><br/>
+                    <h2 style="margin: 0px 0px 0px 10px;text-align: left;">Product Title</h2>
+                    <p style="margin: 0px 0px 5px 10px;text-align: left;font-size: 15px;color: #838383;">Lorem</p><br>
+                    <p style="margin: 0px 10px 0px 10px;text-align: justify; width: auto; height: auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <p style="text-align: left;margin: 5px 0px 0px 10px;color: #838383;">
+                        MRP <strike>₹1000</strike><br> <span style="color: #80bf32;font-weight: bold;">20.00% OFF</span>
+                    </p><br>
+                    <p style="margin: 0px 0px 0px 10px; text-align: left;font-weight: bold;"> ₹ 800 </p>
+                    <button type="submit" style="width: 300px;height: 40px;background-color: #f14d54;border:none;border-radius: 6px;
+                    color: white;font-weight: bold;margin-top: 7px;">ADD TO CART</button>
+                </div>
+
+                <div style="overflow: hidden; width: 300px; height: 700px;">
+                    <img src="200.png" alt="200x200" style="width: 300px;height: 200px; background-color: black;"><br/>
+                    <h2 style="margin: 0px 0px 0px 10px;text-align: left;">Product Title</h2>
+                    <p style="margin: 0px 0px 5px 10px;text-align: left;font-size: 15px;color: #838383;">Lorem</p><br>
+                    <p style="margin: 0px 10px 0px 10px;text-align: justify; width: auto; height: auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <p style="text-align: left;margin: 5px 0px 0px 10px;color: #838383;">
+                        MRP <strike>₹1000</strike><br> <span style="color: #80bf32;font-weight: bold;">20.00% OFF</span>
+                    </p><br>
+                    <p style="margin: 0px 0px 0px 10px; text-align: left;font-weight: bold;"> ₹ 800 </p>
+                    <button type="submit" style="width: 300px;height: 40px;background-color: #f14d54;border:none;border-radius: 6px;
+                    color: white;font-weight: bold;margin-top: 7px;">ADD TO CART</button>
+                </div>
+
+                <div style="overflow: hidden; width: 300px; height: 700px;">
+                    <img src="200.png" alt="200x200" style="width: 300px;height: 200px; background-color: black;"><br/>
+                    <h2 style="margin: 0px 0px 0px 10px;text-align: left;">Product Title</h2>
+                    <p style="margin: 0px 0px 5px 10px;text-align: left;font-size: 15px;color: #838383;">Lorem</p><br>
+                    <p style="margin: 0px 10px 0px 10px;text-align: justify; width: auto; height: auto;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                    <p style="text-align: left;margin: 5px 0px 0px 10px;color: #838383;">
+                        MRP <strike>₹1000</strike><br> <span style="color: #80bf32;font-weight: bold;">20.00% OFF</span>
+                    </p><br>
+                    <p style="margin: 0px 0px 0px 10px; text-align: left;font-weight: bold;"> ₹ 800 </p>
+                    <button type="submit" style="width: 300px;height: 40px;background-color: #f14d54;border:none;border-radius: 6px;
+                    color: white;font-weight: bold;margin-top: 7px;">ADD TO CART</button>
+                </div>
+
+                
+            </div>
+        </div>
+    <!-- Item Container Over -->
+
+    <!-- Page  Counter -->
+        <div style="margin: 0px 0px 80px 0px;">
+
+            <form action="" style="text-align: center;">
+
+                <button style="height: 25px;width: 25px;border: none;
+                border-radius: 25px;color: #838383;background-color: white;margin: 0px 3px 0px 3px;"> ❮ </button>
+
+                <button style="height: 25px;width: 25px;background-color: #f14d54;border: none;
+                border-radius: 25px;color: white;margin: 0px 3px 0px 3px;"> 1</button>
+
+                <button style="height: 25px;width: 25px;background-color: white;border: none;
+                border-radius: 25px;margin: 0px 3px 0px 3px;"> 2</button>
+
+                <button style="height: 25px;width: 25px;background-color: white;border: none;
+                border-radius: 25px;margin: 0px 3px 0px 3px;">3</button>
+
+                <button style="height: 25px;width: 25px;background-color: white;border: none;
+                border-radius: 25px; margin: 0px 3px 0px 3px;">4</button>
+
+                <button style="height: 25px;width: 25px;background-color: white;border: none;
+                border-radius: 25px; margin: 0px 3px 0px 3px;">5</button>
+
+                <button style="height: 25px;width: 25px;background-color: white;border: none;
+                border-radius: 25px; margin: 0px 3px 0px 3px;font-weight: bold;font-size: 18px;">...</button>
+
+                <button style="height: 25px;width: 25px;background-color: white;border: none;
+                border-radius: 25px; margin: 0px 3px 0px 3px;">10</button>
+
+                <button style="height: 25px;width: 25px;background-color: white;border: none;
+                border-radius: 25px; margin: 0px 3px 0px 3px;">❯</button>
+
+
+            </form>
+
+        </div>
+    <!-- Page  Counter Over -->    
+
+    <!-- Footer -->
+        <footer style="background: #e6e6e6;margin: 0px;">
+
+            <div style="margin: 0px; text-align: center; padding: 20px 0px 20px 0px;">
+
+                <h1 style="margin-bottom: 0px;">TatvaSoft </h1>
+                <p style="margin-top: 0px;color: #838383;">©2021 TatvaSoft.com All right reserved</p>
+            </div>
+        </footer>
+    <!-- Footer Over -->
+
+    </body>
+</html>
